@@ -1,0 +1,80 @@
+export const products = [
+    {
+        id: 1,
+        title: "ImageVault: Decentralized image gallery",
+        link: "https://github.com/parmeet20/ImageVault",
+        thumbnail: "https://github.com/user-attachments/assets/23c4b787-13a4-4b9d-bfcc-3a8a0b8cd3d4",
+    },
+    {
+        id: 2,
+        title: "ImageVault: Decentralized image gallery",
+        link: "https://github.com/parmeet20/ImageVault",
+        thumbnail: "https://github.com/user-attachments/assets/3dc9fe3c-de19-4dc4-a09f-767f326cfb50",
+    },
+    {
+        id: 3,
+        title: "CrowdChain: Blockchain based crowdfunding platform",
+        link: "https://github.com/parmeet20/CrowdChain",
+        thumbnail: "https://github.com/user-attachments/assets/43e5f7d4-1059-42a4-b128-7970948d05fe",
+    },
+    {
+        id: 4,
+        title: "CrowdChain: Blockchain based crowdfunding platform",
+        link: "https://github.com/parmeet20/CrowdChain",
+        thumbnail: "https://github.com/user-attachments/assets/64f24613-5f6f-4af6-babe-1b20536ee945",
+    },
+    {
+        id: 5,
+        title: "CrowdChain: Blockchain based crowdfunding platform",
+        link: "https://github.com/parmeet20/CrowdChain",
+        thumbnail: "https://github.com/user-attachments/assets/949a1db3-3f06-44d4-a63d-9836f9398724",
+    },
+    {
+        id: 6,
+        title: "ImageVault: Decentralized image gallery",
+        link: "https://github.com/parmeet20/ImageVault",
+        thumbnail: "https://github.com/user-attachments/assets/8cedf5bf-3078-4930-b285-4012ce987ce1",
+    },
+    {
+        id: 7,
+        title: "Decentralized lottery application",
+        link: "https://github.com/parmeet20/decentralized_lottery_application",
+        thumbnail: "https://github.com/user-attachments/assets/4c62d1ff-1ab3-49d0-a833-b70d2f02da3c",
+    },
+    {
+        id: 8,
+        title: "ImageVault: Decentralized image gallery",
+        link: "https://github.com/parmeet20/ImageVault",
+        thumbnail: "https://github.com/user-attachments/assets/3dc9fe3c-de19-4dc4-a09f-767f326cfb50",
+    },
+    {
+        id: 9,
+        title: "CrowdChain: Blockchain based crowdfunding platform",
+        link: "https://github.com/parmeet20/CrowdChain",
+        thumbnail: "https://github.com/user-attachments/assets/43e5f7d4-1059-42a4-b128-7970948d05fe",
+    },
+    {
+        id: 10,
+        title: "CrowdChain: Blockchain based crowdfunding platform",
+        link: "https://github.com/parmeet20/CrowdChain",
+        thumbnail: "https://github.com/user-attachments/assets/64f24613-5f6f-4af6-babe-1b20536ee945",
+    },
+    {
+        id: 11,
+        title: "CrowdChain: Blockchain based crowdfunding platform",
+        link: "https://github.com/parmeet20/CrowdChain",
+        thumbnail: "https://github.com/user-attachments/assets/949a1db3-3f06-44d4-a63d-9836f9398724",
+    },
+    {
+        id: 12,
+        title: "ImageVault: Decentralized image gallery",
+        link: "https://github.com/parmeet20/ImageVault",
+        thumbnail: "https://github.com/user-attachments/assets/8cedf5bf-3078-4930-b285-4012ce987ce1",
+    },
+    {
+        id: 13,
+        title: "Decentralized lottery application",
+        link: "https://github.com/parmeet20/decentralized_lottery_application",
+        thumbnail: "https://github.com/user-attachments/assets/4c62d1ff-1ab3-49d0-a833-b70d2f02da3c",
+    },
+];
