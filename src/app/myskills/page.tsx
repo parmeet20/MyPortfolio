@@ -1,6 +1,5 @@
 import { Spotlight } from '@/components/ui/spotlight';
 import { TextGenerateEffect } from '@/components/ui/text-generate-effect';
-import Image from 'next/image';
 import React from 'react';
 const skills = [
   { name: 'JavaScript', image: 'https://github.com/user-attachments/assets/fecd6277-8c89-48c0-ba00-34af6353842e' },
