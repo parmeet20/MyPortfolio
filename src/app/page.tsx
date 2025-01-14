@@ -1,6 +1,6 @@
 import { HeroParallax } from "@/components/ui/hero-parallax";
 import { Spotlight } from "@/components/ui/spotlight";
-import { products } from "@/prod/products";
+import { products } from "@/conf/products";
 import React from "react";
 
 const HomePage = () => {
