@@ -25,6 +25,14 @@ export const items: IItems[] = [
         "https://github.com/user-attachments/assets/ec14355a-5f16-4ac1-84d9-581fcaa8a154",
       projectLink: "https://github.com/parmeet20/LandVerse",
     },
+    {
+      title: "CareTrack",
+      description:
+        "CareTrack allows users to store and manage medical records on the blockchain. Patients can view their records, including diagnosis and prescriptions, and download PDF receipts. Doctors can register, and users can easily access and share their medical information securely.",
+      imageURL:
+        "https://github.com/user-attachments/assets/2c792405-496f-4413-8765-5563a621f175",
+      projectLink: "https://github.com/parmeet20/CareTrack",
+    },
       {
       title: "Decentralized Lottery app",
       description:

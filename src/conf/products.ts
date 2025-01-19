@@ -7,9 +7,9 @@ export const products = [
     },
     {
         id: 2,
-        title: "ImageVault: Decentralized image gallery",
-        link: "https://github.com/parmeet20/ImageVault",
-        thumbnail: "https://github.com/user-attachments/assets/3dc9fe3c-de19-4dc4-a09f-767f326cfb50",
+        title: "LandVerse: Decentralized healthcare system",
+        link: "https://github.com/parmeet20/LandVerse",
+        thumbnail: "https://github.com/user-attachments/assets/ec14355a-5f16-4ac1-84d9-581fcaa8a154",
     },
     {
         id: 3,
@@ -19,9 +19,9 @@ export const products = [
     },
     {
         id: 4,
-        title: "CrowdChain: Blockchain based crowdfunding platform",
-        link: "https://github.com/parmeet20/CrowdChain",
-        thumbnail: "https://github.com/user-attachments/assets/64f24613-5f6f-4af6-babe-1b20536ee945",
+        title: "CareTrack: Decentralized Healthcare system",
+        link: "https://github.com/parmeet20/CareTrack",
+        thumbnail: "https://github.com/user-attachments/assets/2c792405-496f-4413-8765-5563a621f175",
     },
     {
         id: 5,
