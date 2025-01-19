@@ -1,15 +1,15 @@
 export const products = [
     {
         id: 1,
-        title: "ImageVault: Decentralized image gallery",
-        link: "https://github.com/parmeet20/ImageVault",
-        thumbnail: "https://github.com/user-attachments/assets/23c4b787-13a4-4b9d-bfcc-3a8a0b8cd3d4",
-    },
-    {
-        id: 2,
         title: "LandVerse: Decentralized healthcare system",
         link: "https://github.com/parmeet20/LandVerse",
         thumbnail: "https://github.com/user-attachments/assets/ec14355a-5f16-4ac1-84d9-581fcaa8a154",
+    },
+    {
+        id: 2,
+        title: "ImageVault: Decentralized image gallery",
+        link: "https://github.com/parmeet20/ImageVault",
+        thumbnail: "https://github.com/user-attachments/assets/23c4b787-13a4-4b9d-bfcc-3a8a0b8cd3d4",
     },
     {
         id: 3,
