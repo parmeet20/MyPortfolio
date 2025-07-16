@@ -73,8 +73,8 @@ export const products = [
     },
     {
         id: 13,
-        title: "Decentralized lottery application",
-        link: "https://github.com/parmeet20/decentralized_lottery_application",
-        thumbnail: "https://github.com/user-attachments/assets/4c62d1ff-1ab3-49d0-a833-b70d2f02da3c",
+        title: "ChainX: Fully Decentralized supply chain powered by Solana",
+        link: "https://github.com/parmeet20/ChainX",
+        thumbnail: "https://github.com/user-attachments/assets/f920494e-3026-4daf-b181-35a28811d865",
     },
 ];
