@@ -2,21 +2,23 @@
 
 import React from "react";
 import { CardBody, CardContainer, CardItem } from "../ui/3d-card";
-import { GithubIcon } from "lucide-react";
+import { GithubIcon, Radio } from "lucide-react";
 import Image from "next/image";
 
 interface ThreeDCardDemoProps {
   title: string;
   description: string;
   imageURL: string;
-  projectLink:string;
+  projectLink: string;
+  liveProjectLink?: string;
 }
 
 const ThreeDCardDemo: React.FC<ThreeDCardDemoProps> = ({
   title,
   description,
   imageURL,
-  projectLink
+  projectLink,
+  liveProjectLink,
 }) => {
   return (
     <CardContainer className="inter-var">
@@ -43,17 +45,33 @@ const ThreeDCardDemo: React.FC<ThreeDCardDemoProps> = ({
             alt="thumbnail"
           />
         </CardItem>
-        <div className="flex justify-between items-center mt-20">
-          <a href={projectLink} target="_blank">
-            <CardItem
-              translateZ={20}
-              as="button"
-              className="px-4 flex items-center py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
-            >
-              Star on Github
-              <GithubIcon className="ml-2" />
-            </CardItem>
-          </a>
+        <div className="flex justify-between">
+          <div className="flex justify-between items-center mt-20">
+            <a href={projectLink} target="_blank">
+              <CardItem
+                translateZ={20}
+                as="button"
+                className="px-4 flex items-center py-2 rounded-xl bg-black dark:bg-white dark:text-black text-white text-xs font-bold"
+              >
+                Star on Github
+                <GithubIcon className="ml-2" />
+              </CardItem>
+            </a>
+          </div>
+          {liveProjectLink && (
+            <div className="flex justify-between items-center mt-20">
+              <a href={liveProjectLink} target="_blank">
+                <CardItem
+                  translateZ={20}
+                  as="button"
+                  className="px-4 flex items-center "
+                >
+                  Live
+                  <Radio className="ml-2" />
+                </CardItem>
+              </a>
+            </div>
+          )}
         </div>
       </CardBody>
     </CardContainer>

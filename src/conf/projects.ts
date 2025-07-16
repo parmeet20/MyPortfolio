@@ -8,6 +8,7 @@ export const items: IItems[] = [
     imageURL:
       "https://github.com/user-attachments/assets/f920494e-3026-4daf-b181-35a28811d865",
     projectLink: "https://github.com/parmeet20/ChainX",
+    liveProjectLink: "https://chainx-beta.vercel.app/"
   },
   {
     title: "ImageValut",
@@ -16,14 +17,27 @@ export const items: IItems[] = [
     imageURL:
       "https://github.com/user-attachments/assets/3dc9fe3c-de19-4dc4-a09f-767f326cfb50",
     projectLink: "https://github.com/parmeet20/ImageVault",
+    liveProjectLink: "https://imagevalut.vercel.app/"
   }
-  , {
-    title: "CrowdChain",
+  ,
+  {
+    title: "Decommerse",
     description:
-      "CrowdChain is a decentralized crowdfunding platform where users can create campaigns and track funding progress through a dynamic circle chart. The card displays the campaign's goal and raised funds in ETH. Only the campaign owner can withdraw funds once the goal is met, offering secure, transparent funding with a modern UI.",
+      "Decommerse is a decentralized e-commerce platform built on the Solana blockchain. Users can create and manage products, update stock anytime, and sell directly to others. Buyers can shop and even become sellers themselves. Every purchase and received payment is transparently recorded and visible on the user’s profile fast,secure,and fully on-chain.",
     imageURL:
-      "https://github.com/user-attachments/assets/23c4b787-13a4-4b9d-bfcc-3a8a0b8cd3d4",
-    projectLink: "https://github.com/parmeet20/CrowdChain",
+      "https://github.com/user-attachments/assets/acc938c7-c36b-4d88-9cc7-8f46cc7e49f1",
+    projectLink: "https://github.com/parmeet20/Decommerse",
+    liveProjectLink: "https://decommerse.vercel.app/"
+  }
+  ,
+   {
+    title: "Solraise",
+    description:
+      "Solraise is a decentralized crowdfunding platform where users can create campaigns and track funding progress through a dynamic progressbar. The card displays the campaign's goal and raised funds in SOL. Only the campaign owner can withdraw funds once the goal is met, offering secure, transparent funding with a modern UI.",
+    imageURL:
+      "https://github.com/user-attachments/assets/22913082-3f6d-47c5-aa55-e00149678874",
+    projectLink: "https://github.com/parmeet20/SolRaise-UI",
+    liveProjectLink: "https://solraise.vercel.app/"
   },
   {
     title: "LandVerse",

@@ -8,6 +8,7 @@ export interface IItems {
   description: string;
   imageURL: string;
   projectLink: string;
+  liveProjectLink?: string;
 }
 const Projects = () => {
   const words = "My Projects";
@@ -25,6 +26,7 @@ const Projects = () => {
               description={item.description}
               imageURL={item.imageURL}
               projectLink={item.projectLink}
+              liveProjectLink={item.liveProjectLink}
             />
           ))}
         </div>
