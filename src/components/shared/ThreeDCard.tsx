@@ -67,7 +67,7 @@ const ThreeDCardDemo: React.FC<ThreeDCardDemoProps> = ({
                   className="px-4 flex items-center "
                 >
                   Live
-                  <Radio className="ml-2" />
+                  <Radio className="ml-2 animate-pulse text-slate-400" />
                 </CardItem>
               </a>
             </div>
